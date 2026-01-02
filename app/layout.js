@@ -1,4 +1,4 @@
-
+000 0000 0000 0000 oh 000
 import "./globals.css";
 
 export const metadata = {
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     <a href="/picks" style={{ textDecoration: "none" }}>Picks</a>
     <a href="/about" style={{ textDecoration: "none" }}>About</a>
   </nav>
-</header>
+
         </header>
 
         <main style={{ padding: "20px" }}>{children}</main>
