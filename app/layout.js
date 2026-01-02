@@ -10,8 +10,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{ padding: "16px", borderBottom: "1px solid #ddd" }}>
-          <h2 style={{ margin: 0 }}>BAYDAKID PRO</h2>
+        <header style={{ padding: "16px", borderBottom: "1px solid #<header
+  style={{
+    padding: "16px 20px",
+    borderBottom: "1px solid #ddd",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "16px",
+  }}
+>
+  <div style={{ fontWeight: "700", fontSize: "18px" }}>BAYDAKID PRO</div>
+
+  <nav style={{ display: "flex", gap: "14px", fontSize: "14px" }}>
+    <a href="/" style={{ textDecoration: "none" }}>Home</a>
+    <a href="/picks" style={{ textDecoration: "none" }}>Picks</a>
+    <a href="/about" style={{ textDecoration: "none" }}>About</a>
+  </nav>
+</header>
         </header>
 
         <main style={{ padding: "20px" }}>{children}</main>
