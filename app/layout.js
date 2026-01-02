@@ -21,8 +21,7 @@ export default function RootLayout({ children }) {
   }}
 >
 
-  }}
->
+
   <div style={{ fontWeight: "700", fontSize: "18px" }}>BAYDAKID PRO</div>
 
   <nav style={{ display: "flex", gap: "14px", fontSize: "14px" }}>
