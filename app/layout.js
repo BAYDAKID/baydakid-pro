@@ -1,4 +1,4 @@
-Seven000 0000 0000 0000 oh 000
+
 import "./globals.css";
 
 export const metadata = {
