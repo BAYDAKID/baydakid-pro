@@ -1,4 +1,4 @@
-000 0000 0000 0000 oh 000
+Seven000 0000 0000 0000 oh 000
 import "./globals.css";
 
 export const metadata = {
@@ -21,8 +21,6 @@ export default function RootLayout({ children }) {
   }}
 >
 
-    justifyContent: "space-between",
-    gap: "16px",
   }}
 >
   <div style={{ fontWeight: "700", fontSize: "18px" }}>BAYDAKID PRO</div>
