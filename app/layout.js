@@ -10,8 +10,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{ padding: "16px", borderBottom: "1px solid #<header
+<header
   style={{
+    padding: "16px 20px",
+    borderBottom: "1px solid #ddd",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "16px",
+  }}
+>
     padding: "16px 20px",
     borderBottom: "1px solid #ddd",
     display: "flex",
