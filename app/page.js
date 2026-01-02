@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main>
-      <h1>BAYDAKID PRO</h1>
-      <p>Welcome to the demo site</p>
+    <h1>AI-Powered Sports Predictions</h1>
+<p>Smarter picks. Better bankroll decisions.</p>
     </main>
   );
 }
