@@ -20,10 +20,7 @@ export default function RootLayout({ children }) {
     gap: "16px",
   }}
 >
-    padding: "16px 20px",
-    borderBottom: "1px solid #ddd",
-    display: "flex",
-    alignItems: "center",
+
     justifyContent: "space-between",
     gap: "16px",
   }}
