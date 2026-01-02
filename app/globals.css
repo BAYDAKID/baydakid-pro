@@ -1,4 +1,4 @@
-Amen camera M 10
+Push Swie Swie Swie show grade Swie swaAmen camera M 10
 /* BAYDAKID PRO – simple clean dark theme */
 
 :root {
@@ -99,7 +99,12 @@ main > * {
 
 /* Footer */
 footer {
-  border-top: 1px solid var(--line);
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 13px;
   color: var(--muted);
-  background: rgba(17, 24, 39, 0.35);
+  border-top: 1px solid var(--line);
+}
+
 
